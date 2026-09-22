@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - สมชาย ตั้งใจทำงาน</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Helvetica Neue', Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        header {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .header-left h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            font-weight: 700;
+        }
+        .header-left p {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        .header-right {
+            text-align: right;
+            font-size: 0.95rem;
+            color: #555;
+        }
+        .header-right a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .header-right a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            text-transform: uppercase;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+        .item {
+            margin-bottom: 20px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: #34495e;
+            flex-wrap: wrap;
+        }
+        .company, .school {
+            color: #e67e22;
+        }
+        .date {
+            color: #7f8c8d;
+            font-weight: normal;
+        }
+        ul {
+            margin-left: 20px;
+            margin-top: 5px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .skill-badge {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        @media (max-width: 600px) {
+            body { padding: 15px 10px; }
+            .container { padding: 20px; }
+            header { flex-direction: column; align-items: flex-start; }
+            .header-right { text-align: left; }
+            .item-header { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- ข้อมูลส่วนตัว / ติดต่อ -->
+    <header>
+        <div class="header-left">
+            <h1>สมชาย ตั้งใจทำงาน</h1>
+            <p>Web Developer</p>
+        </div>
+        <div class="header-right">
+            <p>อีเมล: <a href="mailto:somchai.work@email.com">somchai.work@email.com</a></p>
+            <p>เบอร์โทร: 089-123-4567</p>
+            <p>ที่อยู่: กรุงเทพฯ, ประเทศไทย</p>
+            <p>GitHub: <a href="https://github.com" target="_blank">://github.com</a></p>
+        </div>
+    </header>
+
+    <!-- ประวัติการทำงาน -->
+    <section>
+        <h2>ประสบการณ์ทำงาน</h2>
+        
+        <div class="item">
+            <div class="item-header">
+                <span>Senior Web Developer | <span class="company">บริษัท เทคเทค จำกัด</span></span>
+                <span class="date">มกราคม 2024 - ปัจจุบัน</span>
+            </div>
+            <ul>
+                <li>พัฒนาและดูแลระบบเว็บแอปพลิเคชันหลักของบริษัทโดยใช้ HTML5, CSS3, JavaScript และ React</li>
+                <li>ออกแบบโครงสร้างหน้าเว็บให้รองรับการทำงานในทุกอุปกรณ์ (Responsive Web Design) และปรับปรุงความเร็วการโหลดหน้าเว็บเพิ่มขึ้น 30%</li>
+                <li>ทำงานร่วมกับทีม UI/UX designer เพื่อแปลงดีไซน์เป็นโค้ดที่ใช้งานได้จริงอย่างแม่นยำ</li>
+            </ul>
+        </div>
+
+        <div class="item">
+            <div class="item-header">
+                <span>Junior Web Developer | <span class="company">บริษัท สตาร์ทอัพ จำกัด</span></span>
+                <span class="date">มิถุนายน 2022 - ธันวาคม 2023</span>
+            </div>
+            <ul>
+                <li>เขียนโค้ดและแก้ไขจุดบกพร่อง (Bug) บนหน้าเว็บไซต์หลักโดยใช้ HTML/CSS และ jQuery</li>
+                <li>สร้าง Landing Page สำหรับแคมเปญการตลาดต่างๆ ช่วยเพิ่มยอดผู้สมัครใช้งาน 15%</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ประวัติการศึกษา -->
+    <section>
+        <h2>ประวัติการศึกษา</h2>
+        <div class="item">
+            <div class="item-header">
+                <span>ปริญญาตรี วิทยาศาสตรบัณฑิต (วิทยาการคอมพิวเตอร์) | <span class="school">มหาวิทยาลัยตัวอย่าง</span></span>
+                <span class="date">2018 - 2022</span>
+            </div>
+            <p style="margin-top: 5px; color: #555;">เกียรตินิยมอันดับ 2 (GPAX: 3.45)</p>
+        </div>
+    </section>
+
+    <!-- ทักษะความสามารถ -->
+    <section>
+        <h2>ทักษะความสามารถ</h2>
+        <div class="skills-container">
+            <span class="skill-badge">HTML5 / CSS3</span>
+            <span class="skill-badge">JavaScript (ES6+)</span>
+            <span class="skill-badge">React.js</span>
+            <span class="skill-badge">Responsive Design</span>
+            <span class="skill-badge">Git & GitHub</span>
+            <span class="skill-badge">SQL Basics</span>
+            <span class="skill-badge">English (Intermediate)</span>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
